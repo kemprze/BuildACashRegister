@@ -5,7 +5,7 @@
 :root {
   --text: #254D70;--header-footer: #131D4F;
   --main-color: #EFE4D2;
-  font-size: 62.5%;
+  font-size: 75%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -83,10 +83,15 @@ input[type="number"] {
 
 ul {
   padding: 0;
-background-color: #FFF;
-
 }
 
 li {
   border: 1px solid black;
+  background-color: #FFF;
+}
+
+@media (max-width: 960px) {
+  :root {
+    font-size: 50%;
+  }
 }
