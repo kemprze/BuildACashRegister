@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <header><p class="header-footer">Cash Register</p></header>
+    <main>
+      <div class="application">
+        <div class="available-funds">Funds available for disbursal: </div>
+        <span></span><label for="cash">Enter cash from the customer</label><span></span><input id="cash" type="number"></input>
+      <button id="purchase-btn">Submit</button>
+      <label for="bill-list">Bills and coins available in the register: </label>
+      <ul class="bill-list" id="bill-list">
+      </ul>
+      <label for="change-due">Status</label>
+      <div id="change-due"></div>
+      </div>
+      <script src="script.js"></script>
+    </main>
+    <footer><p class="header-footer">&#169; kemprze 2025</p></footer>
+  </body>
+</html>
